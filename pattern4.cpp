@@ -1,0 +1,42 @@
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     ios_base::sync_with_stdio(false);
+//     cin.tie(NULL);
+//     int i,j,n,num = 1;
+//     cin >> n;
+//     for (i = 0; i < n;i++)
+//     {
+//         for (j = 0; j < i+1; j++)
+//         {
+//             cout << num <<" ";
+//         }
+//         num++;
+//         cout << "\n";
+//     }
+//     return 0;
+// }
+
+//For charecter
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int i,j,n;
+    char ch = 'A';
+    cin >> n;
+    for (i = 0; i < n;i++)
+    {
+        for (j = 0; j < i+1; j++)
+        {
+            cout << ch <<" ";
+        }
+        ch++;
+        cout << "\n";
+    }
+    return 0;
+}
