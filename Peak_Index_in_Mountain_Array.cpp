@@ -17,7 +17,7 @@ void Peak(vector <int>& A,int n)
         {
             low = mid + 1;
         }
-        else if(A[mid-1 > A[mid]])
+        else if(A[mid-1] > A[mid])
         {
             high = mid - 1;
         }
