@@ -32,7 +32,7 @@ signed main()
     int t; cin >> t;
     while(t--)
     {
-        cout << "Enter th Position:";
+        cout << "Enter the Position:";
         int p; cin >> p;
         cout << solve.second[p-1] << '\n';
     }
